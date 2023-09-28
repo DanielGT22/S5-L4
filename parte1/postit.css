@@ -1,0 +1,134 @@
+body {
+  width: 100%;
+  background-color: grey;
+  font-size: 30px;
+  font-family: "Indie Flower", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.lavagna {
+  margin: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-evenly;
+}
+
+.postIt {
+  width: 15%;
+  height: 30vh;
+  padding: 1em;
+  display: flex;
+  text-align: center;
+  background-color: aqua;
+  margin: 2%;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 10px 5px 5px black;
+}
+
+.postIt:hover {
+  transform: scale(1.2);
+  rotate: initial;
+}
+
+h2 {
+  font-size: 50px;
+  padding-bottom: 1em;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+.uno {
+  rotate: -10deg;
+  transition: transform;
+  background: rgb(249, 250, 200);
+  background: rgb(249, 250, 200);
+  background: linear-gradient(
+    177deg,
+    rgba(249, 250, 200, 1) 70%,
+    rgba(140, 140, 126, 1) 100%
+  );
+  transition: transform 0.5s;
+}
+.due {
+  rotate: 5deg;
+  transition: transform 1s;
+  background: rgb(198, 246, 201);
+  background: linear-gradient(
+    142deg,
+    rgba(198, 246, 201, 1) 70%,
+    rgba(115, 142, 117, 1) 100%
+  );
+  transition: transform 0.5s;
+}
+.tre {
+  rotate: -12deg;
+  transition: transform;
+  background: rgb(197, 197, 240);
+  background: linear-gradient(
+    186deg,
+    rgba(197, 197, 240, 1) 70%,
+    rgba(122, 122, 144, 1) 100%
+  );
+  transition: transform 0.5s;
+}
+.quatro {
+  rotate: 20deg;
+  transition: transform;
+  background: rgb(198, 246, 201);
+  background: linear-gradient(
+    142deg,
+    rgba(198, 246, 201, 1) 70%,
+    rgba(115, 142, 117, 1) 100%
+  );
+  transition: transform 0.5s;
+}
+.cinque {
+  rotate: -10deg;
+  transition: transform;
+  background: rgb(249, 250, 200);
+  background: linear-gradient(
+    177deg,
+    rgba(249, 250, 200, 1) 70%,
+    rgba(140, 140, 126, 1) 100%
+  );
+  transition: transform 0.5s;
+}
+.sei {
+  rotate: -20deg;
+  transition: transform;
+  background: rgb(197, 197, 240);
+  background: linear-gradient(
+    186deg,
+    rgba(197, 197, 240, 1) 70%,
+    rgba(122, 122, 144, 1) 100%
+  );
+  transition: transform 0.5s;
+}
+.sete {
+  rotate: -10deg;
+  transition: transform;
+  background: rgb(249, 250, 200);
+  background: linear-gradient(
+    177deg,
+    rgba(249, 250, 200, 1) 70%,
+    rgba(140, 140, 126, 1) 100%
+  );
+  transition: transform 0.5s;
+}
+.otto {
+  rotate: 5deg;
+  transition: transform;
+  background: rgb(198, 246, 201);
+  background: linear-gradient(
+    142deg,
+    rgba(198, 246, 201, 1) 70%,
+    rgba(115, 142, 117, 1) 100%
+  );
+  transition: transform 0.5s;
+}
